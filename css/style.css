@@ -319,7 +319,34 @@ padding: 32px 0;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
         background: #fff;
         transform: translateY(0%);
+        box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08),
+            0px 1px 1px rgba(46, 47, 66, 0.16),
+            0px 2px 1px rgba(46, 47, 66, 0.08);
 
+}
+.soc-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.socialka-team {
+    width: 40px;
+    height: 40px;
+}
+.social-link {
+    background-color: #4d5ae5;
+    height: 100%;
+    width:100%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-link:hover, .social-link:focus {
+    background-color: #404bbf;
+}
+.twitter, .facebook, .instagram, .linkedin {
+    fill: #f4f4fd;
 }
 .portfolio-image {
     overflow: hidden;
@@ -435,21 +462,19 @@ margin: 0 auto;
         justify-content: center;
         align-items: center;
 }
-.icon-socialka-footer li {
+.icon-socialka-footer  {
         display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #4d5ae5;
     gap: 16px;
 }
 .social-media p{
         letter-spacing: 0.02em;
-        color: #fff;
-       
+        color: #fff;     
 }
+.insta{
+    width: 40px;
+    height: 40px;
+}
+
 .footer-content {
     display: flex;
     align-items: baseline;
