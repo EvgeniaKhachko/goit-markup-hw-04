@@ -341,6 +341,13 @@ padding: 32px 0;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 40px;
+}
+.social-link:focus {
+    background-color: #404bbf;
+}
+.social-svg {
+    width:40px;
 }
 .social-link:hover, .social-link:focus {
     background-color: #404bbf;
