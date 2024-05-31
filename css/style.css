@@ -269,36 +269,9 @@ padding: 32px 0;
         align-items: center;
             justify-content: center;
 }
-.icons-clock{
-    display: flex;
-        background-color: #f4f4fd;
-        border: 1px solid #8e8f99;
-        border-radius: 4px;
-        height: 112px;
-        margin-bottom: 8px;
-        align-items: center;
-        justify-content: center;
-}
-.icons-diagram{
-    display: flex;
-        background-color: #f4f4fd;
-        border: 1px solid #8e8f99;
-        border-radius: 4px;
-        height: 112px;
-        margin-bottom: 8px;
-        align-items: center;
-        justify-content: center;
-}
-.icons-astronaut{
-    display: flex;
-        background-color: #f4f4fd;
-        border: 1px solid #8e8f99;
-        border-radius: 4px;
-        height: 112px;
-        margin-bottom: 8px;
-        align-items: center;
-        justify-content: center;
-}
+
+
+
 .strategy {
     width: calc((100% - 72px) / 4);
     
@@ -358,6 +331,11 @@ img {
         gap: 24px;
 }
 
+.icon-socialka ul{
+    display: flex;
+        justify-content: center;
+        gap: 24px;
+}
 .socialka{
     display: flex;
         justify-content: center;
