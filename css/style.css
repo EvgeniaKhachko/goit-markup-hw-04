@@ -478,7 +478,6 @@ margin: 0 auto;
 .footer-content {
     display: flex;
     align-items: baseline;
-    margin-right: 120px;
 }
 .foot-media {
     font-weight: 500;
@@ -487,4 +486,7 @@ margin: 0 auto;
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin-bottom: 16px;
+}
+footer .container {
+    margin-right: 120px;
 }
