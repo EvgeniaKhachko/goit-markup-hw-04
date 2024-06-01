@@ -328,6 +328,8 @@ padding: 32px 0;
     display: flex;
     justify-content: center;
     gap: 24px;
+    padding: 0;
+    transform: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .socialka-team {
     width: 40px;
@@ -349,11 +351,15 @@ padding: 32px 0;
 .social-svg {
     width:40px;
 }
-.social-link:hover, .social-link:focus {
+    .social-link:active {
+        background-color: #404bbf;
+    }
+
+.social-link:hover {
     background-color: #404bbf;
 }
 .twitter, .facebook, .instagram, .linkedin {
-    fill: #f4f4fd;
+    fill:#f4f4fd;
 }
 .portfolio-image {
     overflow: hidden;
