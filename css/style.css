@@ -490,7 +490,18 @@ margin: 0 auto;
     width: 40px;
     height: 40px;
 }
-
+.insta-link {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.insta-link:hover, .insta-link:active{
+    background-color: #31d0aa;
+}
 .footer-content {
     display: flex;
     align-items: baseline;
