@@ -359,6 +359,7 @@ padding: 32px 0;
 }
 .social-svg {
     width:40px;
+    fill:#f4f4fd;
 }
     .social-link:active {
         background-color: #404bbf;
