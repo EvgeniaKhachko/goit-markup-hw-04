@@ -535,3 +535,6 @@ margin: 0 auto;
 .icon-svg {
     fill:#f4f4fd;
 }
+footer .container {
+    margin-right: 120px;
+}
