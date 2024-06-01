@@ -480,13 +480,15 @@ margin: 0 auto;
 }
 .icon-socialka-footer  {
         display: flex;
-    gap: 16px;
+         gap: 16px;
+            width: 208px;
+            padding: 0;
 }
 .social-media p{
         letter-spacing: 0.02em;
         color: #fff;     
 }
-.insta{
+.icon-socialka-footer .insta {
     width: 40px;
     height: 40px;
 }
@@ -516,6 +518,7 @@ margin: 0 auto;
     color: #FFFFFF;
     margin-bottom: 16px;
 }
-footer .container {
-    margin-right: 120px;
+
+.icon-svg {
+    fill:#f4f4fd;
 }
