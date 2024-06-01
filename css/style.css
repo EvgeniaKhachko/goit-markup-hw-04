@@ -478,11 +478,7 @@ color: #f4f4fd;
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-.social-media{
-width: 208px;
-height: 80px;
-margin: 0 auto;
-}
+
 
 .icon-socialka-footer ul{
     display: flex;
